@@ -43,11 +43,28 @@ portfolio/
 │   │   ├── About.jsx
 │   │   └── Contact.jsx
 │   ├── styles/
-│   │   ├── _responsive.scss
-│   │   ├── _mixins.scss
-│   │   ├── _global.scss
-│   │   └── main.scss
+│   │   ├── base/
+│   │       ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       └── Navbar.jsx
+│   │   ├──Components/
+            ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       └── Navbar.jsx  
+│   │   ├── layouts/
+            ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       └── Navbar.jsx
+│   │   └── pages/
+            ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       ├── layout.jsx
+│   │       └── Navbar.jsx
 │   ├── App.jsx
+    ├── App.css
 │   ├── index.js
 │   └── routes.jsx
 ├── .gitignore
