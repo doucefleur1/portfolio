@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: $font-primary;
+  background-color: $background-light;
+  color: $text-color-dark;
+  transition: all 0.3s ease;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+} 
+//This reset file is essential for:
+
+//- Ensuring consistent base styling across browsers
+//- Setting up a proper full-height layout structure
+//- Enabling smooth theme transitions
+//- Creating a sticky footer layout pattern

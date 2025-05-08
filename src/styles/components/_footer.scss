@@ -1,0 +1,32 @@
+.footer {
+  background-color: $primary-blue;
+  color: $text-color-light;
+  padding: $spacing-lg;
+  margin-top: auto;
+
+  &-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &-social {
+    margin-bottom: $spacing-md;
+    
+    a {
+      color: $text-color-light;
+      font-size: 1.5rem;
+      margin: 0 $spacing-md;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: $light-blue;
+      }
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+}

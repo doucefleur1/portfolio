@@ -1,0 +1,28 @@
+.btn {
+  display: inline-block;
+  padding: $spacing-sm $spacing-md;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+
+  &.primary {
+    background-color: $primary-blue;
+    color: $text-color-light;
+
+    &:hover {
+      background-color: darken($primary-blue, 10%);
+    }
+  }
+
+  &.secondary {
+    background-color: $light-blue;
+    color: $primary-blue;
+
+    &:hover {
+      background-color: darken($light-blue, 10%);
+    }
+  }
+}
