@@ -41,7 +41,7 @@ const Home = () => {
 
       <section className="home-contact">
         <h2>Get in Touch</h2>
-        <p>Interested in collaboration? Let's connect!</p>
+        <p>Interested in collaboration? Let's connect! Can't wait to hear from you.</p>
         <Link to="/contact" className="btn primary">Contact Me</Link>
       </section>
     </div>
