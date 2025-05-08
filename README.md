@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and SASS, featuring a da
 
 ## 🚀 Live Demo
 
-[View Live Demo](http://localhost:5173/)
+[View Live Demo]( https://doucefleur1.github.io/portfolio/)
 
 ## ✨ Features
 
